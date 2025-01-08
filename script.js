@@ -12,7 +12,7 @@ let currentUserMessage = null; // Almacena el mensaje actual del usuario
 let isGeneratingResponse = false; // Indica si el sistema está generando una respuesta
 
 // Claves y URLs de la API
-const GOOGLE_API_KEY = "TU_LLAVE_API_AQUI";
+const GOOGLE_API_KEY = "AIzaSyCQMvaumj4X8qpMPr2iLvQ91qAau4aDfz8";
 const API_REQUEST_URL = `https://generativelanguage.googleapis.com/v1/models/gemini-pro:generateContent?key=${GOOGLE_API_KEY}`;
 
 // Cargar historial de chats guardados desde el almacenamiento local
